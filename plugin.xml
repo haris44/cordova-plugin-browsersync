@@ -5,6 +5,5 @@
     <license>Apache 2.0</license>
     <keywords>cordova,browsersync, browser-sync</keywords>
     <repo>https://github.com/nparashuram/cordova-plugin-browsersync.git</repo>
-    <hook type="after_plugin_install" src="lib/npmInstall.js" />
     <hook type="after_prepare" src="lib/pluginHook.js" />
 </plugin>
