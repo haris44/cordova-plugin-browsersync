@@ -31,7 +31,7 @@
     "glob": "^7.1.2",
     "npm": "^5.5.1",
     "plist": "^2.1.0",
-    "q": "^1.4.1"
+    "q": "^1.5.1"
   },
   "scripts": {
     "createHook": "node_modules/.bin/browserify --node --no-bundle-external --standalone=cordova-bs-plugin -o after_prepare.js -e lib/projectHook.js"
